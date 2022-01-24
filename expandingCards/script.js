@@ -1,4 +1,5 @@
 const panels = document.querySelectorAll('.panel')
+const h3 = document.getElementsByTagName('H3')
 panels.forEach(panel => {
   panel.addEventListener('click', () => {
     removeActiveClasses()
